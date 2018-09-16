@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClientActivity"
+    android:background="@drawable/nexx">
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="371dp"
+        android:background="@drawable/border_curve_transperent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:fontFamily="serif-monospace"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:textColorHighlight="@android:color/holo_orange_dark"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/clientMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:hint="Please Enter Name "
+            android:textColor="@android:color/background_light"
+            android:textColorHighlight="?attr/colorButtonNormal"
+            android:textColorHint="@android:color/background_light"
+            android:textColorLink="?attr/colorButtonNormal"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/send"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/ripple"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="Next"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            tools:layout_marginTop="60dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
